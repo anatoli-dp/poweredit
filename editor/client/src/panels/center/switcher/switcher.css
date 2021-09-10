@@ -1,0 +1,48 @@
+.gjs-rte-action {
+    height: 22px;
+    color: #a1a1a1;
+    min-width: 20px;
+    padding: 0px 5px 0px 5px;
+    font-size: 13px;
+}
+
+.ed-scs-switcherWrapper {
+    position: relative;
+    float: left;
+    height: 22px;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ed-scs-switcherWrapper .switcherTab {
+    height: 22px;
+    width: 75px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 1px;
+    border-radius: 5px 5px 0px 0px;
+    color: #a1a1a1;
+    font-size: 13px;
+}
+
+.ed-scs-switcherWrapper .switcherTab:hover {
+    color: white;
+}
+
+.switcherTab.disabled {
+    background-color: #333333;
+    color: #a1a1a1bb;
+}
+
+.switcherTab.disabled:hover {
+    background-color: #333333;
+    color: #a1a1a1bb;
+}
+
+.switcherTab.selected {
+    background-color: #3282b8;
+    color: white;
+}

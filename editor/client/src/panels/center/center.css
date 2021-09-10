@@ -1,0 +1,49 @@
+.ed-structCenterSwitcher {
+    position: absolute;
+    top: 2px;
+    height: 22px;
+    left: 2px;
+    right: 2px;
+    overflow: hidden;
+}
+
+.ed-structCenterWrapper {
+    position: absolute;
+    top: 26px;
+    bottom: calc(var(--s-bDivide) + 2px);
+    left: 2px;
+    right: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.ed-structCanvas {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.ed-structCode {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-color: #444;
+}
+
+.ed-structPath {
+    position: absolute;
+    height: calc(var(--s-bDivide) - 2px);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-color: #444;
+    border-radius: 5px;
+    overflow: hidden;
+}

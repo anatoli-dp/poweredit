@@ -1,0 +1,13 @@
+.ed-sL-contentContainer {
+    position: absolute;
+    top: var(--sp-tDivide);
+    bottom: 0px;
+    left: 0px;
+    right:31px;
+    border-right: 1px solid #333333;
+}
+
+.ed-sL-content {
+    position: relative;
+    width: 100%;
+}

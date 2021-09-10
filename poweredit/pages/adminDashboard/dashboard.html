@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="dashboard.css" />
+
+        <link rel="stylesheet" href="tabulator.min.css" />
+        <link rel="stylesheet" href="tabulator_bulma.min.css" />
+
+        <link rel="stylesheet" href="all.min.css" />
+
+        <script src="dashboard.js" defer></script>
+
+        <script src="tabulator.min.js"></script>
+    </head>
+    <body>
+        <div class="head">
+            <div class="tabsWrapper">
+                <div class="headTab SITES selectedTab" onclick="selectHeadTab(this)">SITES</div>
+                <div class="headTab PAGES" onclick="selectHeadTab(this)">PAGES</div>
+                <div class="headTab SETTINGS" onclick="selectHeadTab(this)">SETTINGS</div>
+            </div>
+            <div class="controlsWrapper">
+                <i class="fas fa-sync-alt" onclick="refreshData()"></i>
+                <i class="fas fa-plus" onclick="openAddModal()"></i>
+            </div>
+        </div>
+        <div class="body">
+            <div class="contentTable tableSITES"></div>
+            <div class="contentTable tablePAGES"></div>
+            <div class="settingsWrapper">
+                <div class="settingsContainer">
+                    <div class="settingsSection">
+                        <div class="settingsTitle">LOGIN</div>
+                        <form class="LoginSecction settingsSectionForm">
+                            <label class="UsernameTitle">USERNAME</label><br>
+                            <input type="text" id="UsernameField" value="" autocomplete="off"><br>
+                            <label class="OldPasswordTitle">OLD PASSWORD</label><br>
+                            <input type="password" id="OldPasswordField" value="" autocomplete="off"><br><br>
+                            <label class="NewPasswordTitle">NEW PASSWORD</label><br>
+                            <input type="password" id="NewPasswordField" value="" autocomplete="off"><br><br>
+                        </form>
+                        <div class="confirm_denyWrapper">
+                            <div class="modalApplyButton" onclick="changeLogin()">apply</div>
+                        </div>
+                    </div>
+                    <div class="settingsSection">
+                        <div class="settingsTitle">LISCENSE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modalCover">
+            <div class="modalWrapper">
+                <!--Project Add-->
+                <div class="AddProjectModal modalContent">
+                    <form class="addProjectModal">
+                        <label class="projectNameTitle">PROJECT NAME</label><br>
+                        <input type="text" id="addProjectNameField" value="" autocomplete="off"><br>
+                        <label class="projectUrlTitle">PROJECT URL</label><br>
+                        <input type="text" id="addProjectUrlField" value="" autocomplete="off"><br><br>
+                    </form>
+                    <div class="addProjectModalError modalError">THIS IS AN ERROR MSG</div>
+                    <div class="confirm_denyWrapper">
+                        <div class="modalExitButton" onclick="removeModal()">cancel</div>
+                        <div class="modalApplyButton" onclick="addProject()">apply</div>
+                    </div>
+                </div>
+                <!--Project Edit-->
+                <div class="EditProjectModal modalContent">
+                    <form class="addProjectModal">
+                        <label class="projectNameTitle">PROJECT NAME</label><br>
+                        <input type="text" id="editProjectNameField" value="" autocomplete="off"><br>
+                        <label class="projectUrlTitle">PROJECT URL</label><br>
+                        <input type="text" id="editProjectUrlField" value="" autocomplete="off"><br><br>
+                    </form>
+                    <div class="editProjectModalError modalError">THIS IS AN ERROR MSG</div>
+                    <div class="confirm_denyWrapper">
+                        <div class="modalExitButton" onclick="removeModal()">cancel</div>
+                        <div class="modalApplyButton" onclick="editProject()">apply</div>
+                    </div>
+                </div>
+                <!--Page Add-->
+                <div class="AddPageModal modalContent">
+                    <form class="addProjectModal">
+                        <label class="projectNameTitle">PAGES NAME</label><br>
+                        <input type="text" id="addPageNameField" value="" autocomplete="off"><br>
+                        <label class="projectUrlTitle">PAGES LOCATION</label><br>
+                        <input type="text" id="addPageLocationField" value="" autocomplete="off"><br><br>
+                    </form>
+                    <div class="addPageModalError modalError">THIS IS AN ERROR MSG</div>
+                    <div class="confirm_denyWrapper">
+                        <div class="modalExitButton" onclick="removeModal()">cancel</div>
+                        <div class="modalApplyButton" onclick="addPage()">apply</div>
+                    </div>
+                </div>
+                <!--Page Edit-->
+                <div class="EditPageModal modalContent">
+                    <form class="addProjectModal">
+                        <label class="projectNameTitle">PAGES NAME</label><br>
+                        <input type="text" id="editPageNameField" value="" autocomplete="off"><br>
+                        <label class="projectUrlTitle">PAGES LOCATION</label><br>
+                        <input type="text" id="editPageLocationField" value="" autocomplete="off"><br><br>
+                    </form>
+                    <div class="editPageModalError modalError">THIS IS AN ERROR MSG</div>
+                    <div class="confirm_denyWrapper">
+                        <div class="modalExitButton" onclick="removeModal()">cancel</div>
+                        <div class="modalApplyButton" onclick="editPage()">apply</div>
+                        <div class="modalEditButton" onclick="openEditor()">edit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.zoomWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.25)
+}
+
+.zoomWrapper .edsC-left-menu-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.zoomWrapper .edsC-left-menu-item.hoverState i {
+    pointer-events: none;
+}
+
+.zoomWrapper .edsC-left-menu-item.hoverState:hover {
+    color: white;
+}

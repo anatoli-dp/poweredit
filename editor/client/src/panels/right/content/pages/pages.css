@@ -1,0 +1,83 @@
+.ed-sR-content-pages {
+    position: relative;
+    width: 100%;
+}
+
+.ed-sR-content-pages .top {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 25px;
+    z-index: 20;
+    background-color: #444;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ed-sR-content-pages .top .topTab {
+    color:rgba(255, 255, 255, 0.25);
+}
+
+.ed-sR-content-pages .top .topTab:hover {
+    color: white;
+}
+
+.ed-sR-content-pages .top .topTab i {
+    pointer-events: none;
+}
+
+.ed-sR-content-pages .bottom {
+    position: relative;
+    width: 100%;
+}
+
+.ed-sR-content-pages .bottom .pgw {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid black;
+    color:rgba(255, 255, 255, 0.25);
+}
+
+.ed-sR-content-pages .bottom .pgw[data-selected-page] {
+    color: white;
+}
+
+.ed-sR-content-pages .bottom .pgw:hover {
+    color: white;
+}
+
+.ed-sR-content-pages .bottom .pgw .pgwName {
+    position: relative;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 10px;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ed-sR-content-pages .bottom .pgw .pgwName:focus {
+    color: white;
+}
+
+.ed-sR-content-pages .bottom .pgw .pgwDelete {
+    position: relative;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+    color:rgba(255, 255, 255, 0.25)
+}
+
+.ed-sR-content-pages .bottom .pgw .pgwDelete:hover {
+    color: white;
+}
+
+.ed-sR-content-pages .bottom .pgw .pgwDelete i {
+    pointer-events: none;
+}

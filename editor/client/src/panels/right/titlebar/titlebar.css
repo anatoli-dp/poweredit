@@ -1,0 +1,14 @@
+.ed-sR-titlebar {
+    position: absolute;
+    top: 0px;
+    height: var(--sp-tDivide);
+    left: 31px;
+    right: 0px;
+    padding: 0;
+    text-align: center;
+    line-height: var(--sp-tDivide);
+    color: white;
+    font-weight: 100;
+    background-color: #333333;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+}

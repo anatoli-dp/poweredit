@@ -1,0 +1,132 @@
+.ed-sR-content-styleManagerEditor {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    background-color: #444;
+}
+
+.styleManagerEditor-closeWrapper {
+    position: absolute;
+    top: 0px;
+    height: 25px;
+    left: 0px;
+    right: 0px;
+    background-color: #3d3d3d;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a1a1a1;
+}
+
+.styleManagerEditor-closeWrapper:hover {
+    color: white;
+}
+
+.styleManagerEditor-closeWrapper i {
+    pointer-events: none;
+}
+
+.styleManagerEditor-displayWrapper {
+    position: absolute;
+    top: 26px;
+    bottom: 41px;
+    left: 0px;
+    right: 0px;
+}
+
+.styleManagerEditor-displayContent {
+    position: relative;
+    padding: 3px 5px 3px 3px;
+}
+
+.styleManagerEditor-displayContent .selectorWrapper {
+    cursor: unset;
+    margin-bottom: 4px;
+}
+
+.styleManagerEditor-displayContent .ruleWrapper {
+    color: #a1a1a1;
+    padding: 2px 5px 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.styleManagerEditor-displayContent .ruleWrapper:hover {
+    outline: 1px solid #3282b8;
+    color: white;
+}
+
+.styleManagerEditor-displayContent .ruleWrapper:hover {
+    color: white;
+}
+
+.ruleWrapper .ruleName {
+    pointer-events: none;
+    font-size: 13px;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.ruleWrapper .ruleDelete {
+    color: #b53a3a66;
+    padding: 0px 5px 0px 5px;
+}
+
+.ruleWrapper .ruleDelete:hover {
+    color: #b53a3a;
+}
+
+.styleManagerEditor-inputWrapper {
+    position: absolute;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #3d3d3d;
+    border-top: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.styleManagerEditor-inputWrapper .inputDiv {
+    width: 87px;
+    height: 23px;
+    background-color: #444444;
+    line-height: 23px;
+    padding: 0px 5px 0px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-size: 14px;
+}
+
+.styleManagerEditor-inputWrapper .inputDiv:focus {
+    outline: 1px solid #3282b8;
+}
+
+.styleManagerEditor-inputWrapper .inputAccept {
+    color: #0088008c;
+}
+
+.styleManagerEditor-inputWrapper .inputAccept:hover {
+    color: #00ff00;
+}
+
+.styleManagerEditor-inputWrapper .cssErrorMsg {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    padding: 5px;
+    background-color: #b12323bd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}

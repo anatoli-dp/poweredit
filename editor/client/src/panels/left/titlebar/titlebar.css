@@ -1,0 +1,13 @@
+.ed-sL-titlebar {
+    position: absolute;
+    top: 0px;
+    height: var(--sp-tDivide);
+    left: 0px;
+    right: 31px;
+    padding: 0;
+    text-align: center;
+    line-height: var(--sp-tDivide);
+    color: white;
+    font-weight: 100;
+    background-color: #333333;
+}

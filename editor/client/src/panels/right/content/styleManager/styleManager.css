@@ -1,0 +1,51 @@
+.ed-sR-content-styleManager {
+    position: relative;
+    width: 100%;
+}
+
+.ed-sR-content-styleManager details {
+    font-weight: lighter;
+    background-color: rgba(0,0,0,.1);
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.ed-sR-content-styleManager details summary {
+    padding: 9px 10px 9px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.ed-sR-content-styleManager details .selectorSpacer {
+    padding: 1px 5px 1px 5px;
+    background-color: #444;
+}
+
+.selectorSpacer .selectorWrapper {
+    margin: auto;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 1px 1px 0px 3px;
+    cursor: pointer;
+}
+
+.selectorSpacer .selectorWrapper .selector {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 1px 10px 1px 10px;
+    color: white;
+    font-weight: normal;
+    margin: 0px 3px 3px 0px;
+    font-size: .75rem;
+    pointer-events: none;
+}
+
+.selectorSpacer .selectorWrapper .selectorID {
+    background-color: #3c9c8b;
+}
+
+.selectorSpacer .selectorWrapper .selectorClass {
+    background-color: #3976b5;
+}

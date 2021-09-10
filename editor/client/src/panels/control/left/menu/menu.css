@@ -1,0 +1,54 @@
+.ed-sC-left-menu.ed-sC-panelButton-left.ed-sC-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ed-sC-left-menu-item {
+    float: left;
+    line-height: 26px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ed-sC-left-menu-item:hover {
+    color: white;
+}
+
+.subMenu {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subMenuTitle {
+    padding: 3px 10px 3px 10px;
+    color: #3282b8;
+    text-align: center;
+    margin: auto;
+}
+
+.subMenuItem {
+    padding: 3px 10px 3px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subMenuItem.active:hover {
+    background-color: #444;
+}
+
+.subMenuLabel {
+    pointer-events: none;
+}
+
+.subMenuShortcut {
+    pointer-events: none;
+    float: right;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.subMenuBreak {
+    width: 100%;
+    border-color: rgba(255, 255, 255, 0.25);
+}

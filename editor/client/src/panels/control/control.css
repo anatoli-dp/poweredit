@@ -1,0 +1,42 @@
+.ed-sC-left {
+    position: relative;
+    float: left;
+    height: var(--s-tDivide);
+}
+
+.ed-sC-right {
+    position: relative;
+    float: right;
+    height: var(--s-tDivide);
+}
+
+.ed-sC-item {
+    height: calc(var(--s-tDivide) - 4px);
+    padding: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+.ed-sC-item .gjs-pn-buttons {
+    height: calc(var(--s-tDivide) - 4px);
+    padding: 0;
+    margin: 0;
+}
+
+.ed-sC-item .gjs-pn-buttons .gjs-pn-btn {
+    min-height: calc(var(--s-tDivide) - 4px);
+    min-width: var(--s-tDivide);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: calc(var(--s-tDivide) - 4px);
+}
+
+.ed-sC-item .gjs-pn-buttons .gjs-pn-btn:hover {
+    color: white;
+}

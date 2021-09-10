@@ -1,0 +1,37 @@
+{
+  "name": "poweredit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "package": "pkg app.js --config package.json --compress Brotli --debug"
+  },
+  "pkg": {
+    "scripts": [
+      "controllers/*.js",
+      "routes/*.js"
+    ],
+    "assets": [
+      "defaults/*",
+      "pages/*",
+      "node_modules/*"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "author": "Dawson Anatole Pate",
+  "license": "ISC",
+  "dependencies": {
+    "asarmor": "^1.8.0",
+    "better-sqlite3": "^7.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "forever": "^4.0.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "prebuild-install": "^6.1.4"
+  }
+}

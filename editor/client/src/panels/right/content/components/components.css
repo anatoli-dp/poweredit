@@ -1,0 +1,21 @@
+.ed-sR-content-components {
+    position: relative;
+    width: 100%;
+}
+
+.ed-imageBlock-block {
+    padding: 0 !important;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: unset;
+}
+
+.ed-imageBlock-image {
+    width: 100%;
+    /* blurring issue */
+    /*image-rendering: -moz-crisp-edges; /* Firefox */
+    /*image-rendering: -o-crisp-edges; /* Opera */
+    /*image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+    /*image-rendering: crisp-edges;
+    /*-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}

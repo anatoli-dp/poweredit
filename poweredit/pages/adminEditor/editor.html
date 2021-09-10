@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>editor</title>
+        <link rel="stylesheet" href="all.min.css" />
+        <link rel="stylesheet" href="font-awesome.min.css" />
+
+        <link rel="stylesheet" href="main.css" />
+
+        <script src="ace.js"></script>
+        <script src="theme-solarized_dark.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="mode-html.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mode-css.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mode-javascript.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="ext-beautify.js" type="text/javascript" charset="utf-8"></script>
+        <script src="ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="uglifyjs.js"></script>
+        <script src="editor.js" defer></script>
+
+        <script src="jquery-2.1.4.min.js"></script>
+        <script src="webfont.js"></script>
+        <script src="bundle.js" defer></script>
+
+        <style>
+            .loader_wrapper {
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1000;
+                background-color: #000000c9;
+            }
+            
+            .loader {
+                border: 16px solid #ffffff00;
+                border-radius: 50%;
+                border-top: 16px solid #3498db;
+                width: 120px;
+                height: 120px;
+                -webkit-animation: spin 2s linear infinite; /* Safari */
+                animation: spin 2s linear infinite;
+            }
+
+            /* Safari */
+            @-webkit-keyframes spin {
+                0% { -webkit-transform: rotate(0deg); }
+                100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ed-body"></div>
+        <div class="loader_wrapper">
+            <div class="loader"></div>
+        </div>
+    </body>
+</html>

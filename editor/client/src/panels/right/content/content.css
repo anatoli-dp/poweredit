@@ -1,0 +1,14 @@
+.ed-sR-contentContainer {
+    position: absolute;
+    top: var(--sp-tDivide);
+    bottom: 0px;
+    left: 31px;
+    right: 0px;
+    border-left: 1px solid #333333;
+    overflow: hidden;
+}
+
+.ed-sR-content {
+    position: relative;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.ed-structLeft-close {
+    left: calc(0px - var(--s-rDivide) + 29px)
+}
+
+.ed-structCenter-closeLeft {
+    left: 30px;
+}
+
+.ed-structLeft-open {
+    left: 0px;
+}
+
+.ed-structCenter-openLeft {
+    left: calc(var(--s-rDivide) + 1px)
+}

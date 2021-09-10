@@ -1,0 +1,194 @@
+body {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: grey;
+}
+
+.head {
+    position: absolute;
+    top:0px;
+    height: 35px;
+    left: 0px;
+    right: 0px;
+}
+
+.tabsWrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.headTab {
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    color: rgb(255 255 255 / 45%);
+}
+
+.headTab:hover {
+    color: white;
+}
+
+.selectedTab {
+    color: white;
+    text-decoration: underline;
+}
+
+.controlsWrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.controlsWrapper i {
+    padding: 0px 10px 0px 10px;
+    color: rgb(255 255 255 / 45%);
+}
+
+.controlsWrapper i:hover {
+    color: white;
+}
+
+.body {
+    position: absolute;
+    top: 35px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 10px 10px 10px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: darkblue;
+}
+
+.green {
+    color: green;
+}
+
+.modalCover {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000000d4;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.modalWrapper {
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.addProjectModal {
+    width: 100%;
+}
+
+.addProjectModal input {
+    width: 290px;
+}
+
+.confirm_denyWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.confirm_denyWrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 7px;
+    user-select: none;
+    margin: 5px;
+    color: white;
+}
+
+.modalExitButton {
+    background-color: red;
+}
+
+.modalApplyButton {
+    background-color: green;
+}
+
+.modalEditButton {
+    background-color: darkblue;
+}
+
+.modalError {
+    position: relative;
+    top: -7px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.settingsWrapper {
+    position: relative;
+    width: calc(100% - 2px);
+    height: 100%;
+    background-color: white;
+    border: 1px solid #999;
+    display: none;
+    overflow-y: scroll;
+}
+
+.settingsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settingsSection {
+    width: 500px;
+    border: 1px solid #999;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settingsTitle {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}

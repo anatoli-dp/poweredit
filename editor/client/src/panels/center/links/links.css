@@ -1,0 +1,154 @@
+.linksEditorWrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #444;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.linksAddWrapper,
+.linksDisplayWrapper {
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.linksDisplayWrapper {
+    overflow-y: scroll;
+}
+
+.linksAddSection {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: 1px solid #a2a2a2;
+}
+
+.linksAddButton {
+    color: #a2a2a2;
+    font-size: 13px;
+    width: 100px;
+    position: relative;
+    margin-bottom: 5px;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a2a2a2;
+    border-radius: 7px;
+}
+
+.linksAddButton:hover {
+    cursor: pointer;
+}
+
+.linksSectionSubTitle {
+    color: #a2a2a2;
+    font-size: 13px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+}
+
+.linksAddInput {
+    width: 96%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.linksAddInput:focus {
+    outline: none;
+}
+
+.linkDisplayWrapper {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    outline: 1px solid #a2a2a2;
+}
+
+.linkDisplayType {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 70px;
+    outline: 1px solid #a2a2a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a2a2a2;
+    font-size: 13px;
+}
+
+.linkDisplayDelete {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 30px;
+    right: 0px;
+    outline: 1px solid #a2a2a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a2a2a2;
+    font-size: 13px;
+}
+
+.linkDisplayDown {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 30px;
+    right: 30px;
+    outline: 1px solid #a2a2a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a2a2a2;
+    font-size: 13px;
+}
+
+.linkDisplayUp {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 30px;
+    right: 60px;
+    outline: 1px solid #a2a2a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a2a2a2;
+    font-size: 13px;
+}
+
+.linkDisplayContent {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 70px;
+    width: calc(100% - 170px);
+    padding: 0px 5px 0px 5px;
+    background-color: #ffffff00;
+    outline: 1px solid #a2a2a2;
+    color: #a2a2a2;
+    font-size: 13px;
+    border: none;
+}
+
+.linkDisplayContent:focus {
+    outline: 1px solid #a2a2a2;
+}

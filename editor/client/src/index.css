@@ -1,0 +1,53 @@
+@import './stuffs/simple-scrollbar/simple-scrollbar.css';
+@import '../node_modules/tippy.js/dist/tippy.css';
+@import './stuffs/grapick/grapick.min.css';
+
+@import '../../grapesjs/dist/css/grapes.min.css';
+
+@import './stuffs/toolbox/styles.css';
+/*@import './stuffs/rte/styles.css';*/
+@import './stuffs/rulers-designer/styles.css';
+@import './stuffs/component-editor/styles.css';
+
+@import './panels/panels.css';
+
+@import './panels/control/control.css';
+
+@import './panels/control/left/left.css';
+
+@import './panels/control/left/menu/menu.css';
+@import './panels/control/left/zoom/zoom.css';
+@import './panels/control/left/redo/redo.css';
+@import './panels/control/left/preview/preview.css';
+
+@import './panels/control/right/right.css';
+
+@import './panels/left/left.css';
+
+@import './panels/left/titlebar/titlebar.css';
+@import './panels/left/tabs/tabs.css';
+@import './panels/left/content/content.css';
+
+@import './panels/left/content/navigator/navigator.css';
+
+@import './panels/center/center.css';
+@import './panels/center/switcher/switcher.css';
+@import './panels/center/links/links.css';
+@import './panels/center/fonts/fonts.css';
+
+@import './panels/center/code/code.css';
+
+@import './panels/right/right.css';
+
+@import './panels/right/titlebar/titlebar.css';
+@import './panels/right/tabs/tabs.css';
+@import './panels/right/content/content.css';
+
+@import './panels/right/content/pages/pages.css';
+@import './panels/right/content/add/add.css';
+@import './panels/right/content/components/components.css';
+@import './panels/right/content/assets/assets.css';
+@import './panels/right/content/styles/styles.css';
+@import './panels/right/content/styleManager/styleManager.css';
+@import './panels/right/content/styleManager/smEditor/smEditor.css';
+@import './panels/right/content/settings/settings.css';

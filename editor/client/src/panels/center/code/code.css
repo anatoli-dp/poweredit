@@ -1,0 +1,105 @@
+.ace_editor {
+    font-size: 15px;
+}
+
+.codeSelectors {
+    position: absolute;
+    top: 0px;
+    height: 25px;
+    left: 0px;
+    right: 0px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.codeSelectorsTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #333;
+    background-color: #444;
+    color: #1a1a1a;
+    height: 25px;
+    min-width: 75px;
+    font-size: 13px;
+}
+
+.codeSelectorsTab:hover {
+    color: white;
+}
+
+.codeSelectorsTab.selected {
+    background-color: #6b6b6b;
+    color: white;
+}
+
+.CodeUpdateBtn {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    width: 150px;
+    right: 15px;
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #a1a1a1;
+    border-radius: 5px;
+}
+
+.CodeUpdateBtn:hover {
+    color: white;
+}
+
+.CodeTestBtn {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    width: 22px;
+    right: 170px;
+    background-color: #444;
+    color: #a1a1a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.CodeTestBtn:hover {
+    color: white;
+}
+
+.codeAreaWrapper {
+    position: absolute;
+    top: 25px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #444;
+}
+
+.codeAreaContent {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.codeErrorOverlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #444;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

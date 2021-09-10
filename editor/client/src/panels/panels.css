@@ -1,0 +1,164 @@
+:root {
+    --c-c1: #1a1a1a;
+    --c-selected: #3282b8;
+
+    --s-tDivide: 30px;
+    --s-bDivide: 27px;
+    --s-rDivide: 270px;
+
+    --sp-tDivide: 20px;
+}
+
+body {
+    user-select: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--c-c1);
+    overflow: hidden;
+    font-family: Verdana, sans-serif;
+}
+
+.gjs-two-color {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.gjs-three-bg {
+    background-color: var(--c-selected);
+}
+
+.gjs-four-color, .gjs-four-color-h:hover {
+    color: white;
+}
+
+.gjs-pn-btn.gjs-pn-active {
+    background-color: #3282b8;
+}
+
+#gjs-sm-margin-left, #gjs-sm-padding-left {
+    margin-left: -2px;
+}
+
+#gjs-sm-margin-right, #gjs-sm-padding-right {
+    margin-left: 58px;
+    margin-right: -15px;
+    order: 3;
+}
+
+#gjs-sm-bottom, #gjs-sm-margin-bottom, #gjs-sm-padding-bottom {
+    order: 0;
+}
+
+#gjs-sm-margin-bottom, #gjs-sm-padding-bottom {
+    order: 4;
+}
+
+.ed-structTop {
+    position: absolute;
+    top: 0px;
+    height: var(--s-tDivide);
+    left: 0px;
+    right: 0px;
+    background-color: #444;
+}
+
+.ed-structBottom {
+    position: absolute;
+    top: calc(var(--s-tDivide) + 1px);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.ed-structCenter {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: calc(var(--s-rDivide) + 1px);
+}
+
+#gjs-breadcrumbs {
+    top: 0px;
+    bottom: 2px;
+    border-radius: 5px;
+}
+
+.gjs-editor-cont {
+    position: absolute;
+    top: 0px;
+    bottom: var(--s-bDivide);
+    left: 0px;
+    right: 0px;
+}
+
+.gjs-cv-canvas {
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/** color stuffs **/
+.sp-container {
+    border: 1px solid black;
+}
+
+.sp-palette-container {
+    display: none;
+}
+
+.sp-picker-container {
+    border-left: none;
+}
+
+.sp-cancel {
+    display: none;
+}
+
+.wbColorPicker {
+    position: absolute;
+    top: 100px !important;
+    right: 20px !important;
+    left: unset !important;
+    background-color:  #999999 !important;
+}
+/**              **/
+
+.gjs-field-arrows {
+    z-index: 9;
+}
+
+.ed-structLeft {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: var(--s-rDivide);
+    left: 0px;
+    z-index: 50;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #444;
+    overflow: hidden;
+    border: 1px solid black;
+    z-index: 150;
+}
+
+.ed-structRight {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: var(--s-rDivide);
+    border-radius: 5px 0px 0px 5px;
+    background-color: #444;
+    overflow: hidden;
+    border: 1px solid black;
+    z-index: 150;
+}
+
+.gjs-selected {
+    background-color: var(--c-selected);
+    color: white;
+}
+
+.gjs-hovered {
+    color: white;
+}

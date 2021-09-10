@@ -1,0 +1,21 @@
+.ed-sR-content-style {
+    position: relative;
+    width: 100%;
+}
+
+.ed-gjs-selector {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 20;
+    border-bottom: 1px solid #00000038;
+}
+
+.ed-gjs-styles {
+    position: relative;
+    width: 100%;
+}
+
+.gjs-clm-sels-info {
+    overflow: hidden;
+}

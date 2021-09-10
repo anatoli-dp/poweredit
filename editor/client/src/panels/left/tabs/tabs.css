@@ -1,0 +1,46 @@
+.ed-sL-tabs {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 30px;
+    padding: 0px;
+}
+
+.ed-sL-tabs .gjs-pn-buttons {
+    width: 26px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    flex-direction: column;
+}
+
+.ed-sL-tabs .gjs-pn-buttons .gjs-pn-btn {
+    margin: 0;
+    padding: 0;
+    min-width: 26px;
+    min-height: 26px;
+    margin-top: 3px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 26px;
+    overflow: hidden;
+}
+
+.ed-sL-tabs .gjs-pn-buttons .gjs-pn-btn:hover {
+    color: white;
+}
+
+.ed-sL-tabs.slideLock {
+    top: unset;
+    bottom: 10px;
+    color: rgba(255, 255, 255, 0.25)
+}
+
+.ed-sL-tabs.slideLock:hover {
+    color: white;
+}
+
+.slideLock i {
+    pointer-events: none;
+}
