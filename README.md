@@ -42,3 +42,5 @@ for images of the editor go to the 'peScreenshots' folder
 ![Links Manager](peScreenshots/LinksManager.PNG)
 
 ![Google Fonts Importer](peScreenshots/GoogleFontsImporter.PNG)
+
+when viewing the log in the powereshell or whatever terminal you are using . . . the numbers indicate the total image transfer sizes when saving the page
