@@ -7,7 +7,7 @@ This project if free to use just please add me to ur credits :)
 
 To access download the project:
 - download via npm clone
-- run 'npm i' in the poweredit/poweredit folder (root folder and the poweredit)
+- run 'npm i' in the poweredit/poweredit folder ([root folder]/poweredit)
 - run 'node app' (if u wish to run it on a port that isnt 80 run 'node app [port number]' like 'node app 1010'
 - u can access the editor by going to http://admin.testwebsite.localhost/
 - username is 'admin' and password is 'password' (without hyphens)
