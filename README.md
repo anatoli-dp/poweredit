@@ -3,7 +3,6 @@ This is my version of a website builder.
 ![Website Builder](peScreenshots/GeneralEditor.PNG)
 
 I am going to be doing a complete rewrite to this editor as I find it is to constrictive in a few areas that i need fixed so this project will be available to anyone that wants to play around with it.
-This project if free to use just please add me to ur credits :)
 
 To access download the project:
 - download via npm clone
